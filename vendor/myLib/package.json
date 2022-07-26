@@ -1,0 +1,19 @@
+{
+  "name": "@my/lib",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "scripts": {
+    "my.lib.build": "parcel build",
+    "my.lib.watch": "parcel watch"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "targets": {
+    "main": {
+      "source": "src/index.ts"
+    }
+  }
+}

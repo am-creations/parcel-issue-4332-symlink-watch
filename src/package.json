@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "scripts": {
+    "watch": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "workspaces": [
+    "../vendor/myLib"
+  ]
+}
